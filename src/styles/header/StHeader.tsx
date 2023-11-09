@@ -32,7 +32,8 @@ export const StSubTitle = styled.div`
   height: 100%;
   background-color: #817e7e;
   display: flex;
-  > div {
+  position: relative;
+  > div:first-child {
     display: flex;
     width: 100%;
     > div {
@@ -43,5 +44,23 @@ export const StSubTitle = styled.div`
         font-weight: bold;
       }
     }
+  }
+`;
+
+export const StPlusBtn = styled.div`
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 50%;
+  right: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+  border-radius: 2.5rem;
+
+  > svg {
+    width: 100%;
+    height: 100%;
   }
 `;

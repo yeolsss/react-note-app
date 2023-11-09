@@ -1,4 +1,9 @@
-import { StHeader, StSubTitle, StTitle } from "../styles/header/header";
+import {
+  StHeader,
+  StPlusBtn,
+  StSubTitle,
+  StTitle,
+} from "../styles/header/StHeader";
 
 function Header() {
   //TODO: theme button 어디에?
@@ -44,6 +49,22 @@ function Header() {
             <h1>Note 1</h1>
           </div>
         </div>
+        <StPlusBtn>
+          <svg
+            class="addButtonIcon_b776b3"
+            aria-hidden="true"
+            role="img"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+          >
+            <polygon
+              fill-rule="nonzero"
+              fill="currentColor"
+              points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8"
+            ></polygon>
+          </svg>
+        </StPlusBtn>
       </StSubTitle>
     </StHeader>
   );

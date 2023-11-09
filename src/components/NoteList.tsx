@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { selectToDos } from "../redux/config/modules/RNotes";
+import { selectToDos } from "../redux/config/modules/toDoSlice";
 
 function NoteList() {
   const toDos = useSelector(selectToDos);
