@@ -1,9 +1,12 @@
 import styled from "styled-components";
+import ToDoList from "../components/NoteList";
 
 function Main() {
   return (
     <StMain>
-      <StAside></StAside>
+      <StAside>
+        <ToDoList />
+      </StAside>
       <StContent></StContent>
     </StMain>
   );

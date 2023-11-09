@@ -1,4 +1,4 @@
-export interface IToDo {
+export interface INote {
   id: number;
   title: string;
   toDo: string;
